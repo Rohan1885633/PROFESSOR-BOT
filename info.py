@@ -69,14 +69,14 @@ CUSTOM_FILE_CAPTION = environ.get("CUSTOM_FILE_CAPTION",  '''{file_caption}
 
 ╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
 💥 𝙅𝙊𝙄𝙉 :- [Tʜᴇ Mᴏᴠɪᴇs 🍿](https://t.me/The_Movies_Officially)
-╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝) '''
+╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝''')
 BATCH_FILE_CAPTION = environ.get("BATCH_FILE_CAPTION",  '''{file_caption}
 
 ⚙️ Size » {file_size}
 
 ╔═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╗
 💥 𝙅𝙊𝙄𝙉 :- [Tʜᴇ Mᴏᴠɪᴇs 🍿](https://t.me/The_Movies_Officially)
-╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝) '''
+╚═════ ᴊᴏɪɴ ᴡɪᴛʜ ᴜs ════╝''')
 IMDB_TEMPLATE = environ.get("IMDB_TEMPLATE", script.IMDB_TEMPLATE)
 LONG_IMDB_DESCRIPTION = is_enabled(environ.get("LONG_IMDB_DESCRIPTION", "False"), False)
 SPELL_CHECK_REPLY = is_enabled(environ.get("SPELL_CHECK_REPLY", "True"), True)
